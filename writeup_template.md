@@ -99,5 +99,5 @@ Here's an example result showing the heatmap from a series of frames of video, t
 
 ####1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-I think the classifier is doing well, what is needed is to work more the pipleline, somehow track vihecles in a more robust way and draw stable bounding boxes. Next step is to merge this project with P4 advanced lane finding. A further step would be to calculate the speed of cars nearby and wheather a slowdown or a change of lane is needed.
+I think the classifier is doing well, what is needed is to work more the pipleline, somehow track vehicles in a more robust way and draw stable bounding boxes. Next step is to merge this project with P4 advanced lane finding. A further step would be to calculate the speed of cars nearby and wheather a slowdown or a change of lane is needed.
 
