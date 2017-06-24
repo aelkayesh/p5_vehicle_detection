@@ -64,7 +64,7 @@ I decided to compute the hog features for the whole frame at once and I sliced i
 
 ####2. Show some examples of test images to demonstrate how your pipeline is working.  What did you do to optimize the performance of your classifier?
 
-Ultimately I searched on two scales using LUV 3-channel HOG features plus spatially binned color and histograms of color in the feature vector, which provided a nice result.  Here are some example images:
+Ultimately I searched on Three scales (128,64,32) using LUV 3-channel HOG features plus spatially binned color and histograms of color in the feature vector, which provided a nice result. After doing subsampling of HOG features and asking the classifier to predict the car/non-car image, I used blob detections lib from skimage to get more pixels from the car into the bounding box. I checked which blobs intersect with my classifier positive results(heatmap labels) and draw a box by calculating the blob union the heatmap rectangle. Here are some example images:
 
 ![alt text][image4]
 ---
